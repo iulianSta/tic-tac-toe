@@ -16,3 +16,22 @@ h1 {
     color: $fifthColor;
   }
 }
+
+// Action container style
+.action {
+  font-size: 1.2em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  // Player status style
+  .status {
+    color: $sixthColor;
+  }
+  // Reset style
+  .reset {
+    cursor: pointer;
+    &:hover {
+      color: $sixthColor;
+    }
+  }
+}
