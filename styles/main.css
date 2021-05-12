@@ -213,4 +213,34 @@ h1 :last-child {
   color: #ff073a;
 }
 
+.action {
+  font-size: 1.2em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.action .status {
+  color: #faf8f0;
+}
+.action .reset {
+  cursor: pointer;
+}
+.action .reset:hover {
+  color: #faf8f0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid .cell {
+  width: 15vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */
