@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
 html {
   line-height: 1.15;
@@ -231,6 +230,7 @@ h1 :last-child {
 }
 
 .grid {
+  margin-top: 1em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -241,17 +241,23 @@ h1 :last-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 5px solid #faf8f0;
+  border-radius: 1em;
   cursor: pointer;
 }
 
 .x::after {
-  content: "Χ";
+  content: "";
   font-size: 2em;
 }
 
 .o::after {
-  content: "◯";
+  content: "";
   font-size: 1.7em;
+}
+
+.win::after {
+  color: ff073a;
 }
 
 /*# sourceMappingURL=main.css.map */
