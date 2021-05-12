@@ -3,6 +3,7 @@
 // Grid container style
 
 .grid {
+  margin-top: 1em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -12,6 +13,8 @@
   .cell {
     @include mySize;
     @include flex;
+    border: 5px solid #faf8f0;
+    border-radius: 1em;
     cursor: pointer;
   }
 }
