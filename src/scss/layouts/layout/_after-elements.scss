@@ -1,0 +1,15 @@
+// After pseudo elements style
+
+// x::after style
+
+.x::after {
+  content: "Χ";
+  font-size: 2em;
+}
+
+// .o::after style
+
+.o::after {
+  content: "◯";
+  font-size: 1.7em;
+}
