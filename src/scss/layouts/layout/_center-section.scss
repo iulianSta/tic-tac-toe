@@ -1,0 +1,17 @@
+// Center section styling
+
+// Grid container style
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  // Grid cells style
+
+  .cell {
+    @include mySize;
+    @include flex;
+    cursor: pointer;
+  }
+}

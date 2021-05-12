@@ -1,5 +1,16 @@
 // Mixins
 
-// @mixin name {
-//   // your rules
-// }
+// Display flex mixin
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// mySize mixin
+
+@mixin mySize {
+  width: 15vw;
+  height: 15vh;
+}
