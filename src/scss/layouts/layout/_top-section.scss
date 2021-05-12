@@ -1,0 +1,18 @@
+// Top section styling
+
+// H1, span Style
+
+h1 {
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  & :first-child {
+    color: $thirdColor;
+  }
+  & :nth-child(2) {
+    color: $fourthColor;
+  }
+  & :last-child {
+    color: $fifthColor;
+  }
+}
