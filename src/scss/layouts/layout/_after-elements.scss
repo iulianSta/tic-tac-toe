@@ -3,19 +3,19 @@
 // x::after style
 
 .x::after {
-  content: "";
+  content: "Χ";
   font-size: 2em;
 }
 
 // .o::after style
 
 .o::after {
-  content: "";
+  content: "◯";
   font-size: 1.7em;
 }
 
 // .win::after style
 
 .win::after {
-  color: ff073a;
+  color: $fifthColor;
 }
