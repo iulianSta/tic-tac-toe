@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
 html {
   line-height: 1.15;
@@ -247,17 +248,17 @@ h1 :last-child {
 }
 
 .x::after {
-  content: "";
+  content: "Χ";
   font-size: 2em;
 }
 
 .o::after {
-  content: "";
+  content: "◯";
   font-size: 1.7em;
 }
 
 .win::after {
-  color: ff073a;
+  color: #ff073a;
 }
 
 /*# sourceMappingURL=main.css.map */
